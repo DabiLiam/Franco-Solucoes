@@ -21,8 +21,8 @@ const Navbar = () => (
         alt="search"
         className="w-[0px] h-[24px] object-contain"
       />
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white relative">
-        Bem-Vindo
+      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white relative pl-6">
+        Solucionando Problemas
       </h2>
       <img
         src="/menu.svg"

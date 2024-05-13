@@ -1,44 +1,50 @@
 'use client';
 
-import { useState } from 'react';
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
-import { exploreWorlds } from '../constants';
-import { staggerContainer } from '../utils/motion';
-import { ExploreCard, TitleText, TypingText } from '../components';
+import { TitleText, TypingText } from '../components';
+import { fadeIn, staggerContainer } from '../utils/motion';
 
-const Explore = () => {
-  const [active, setActive] = useState('world-2');
+const World = () => (
+  <section className={`${styles.paddings} relative z-10`}>
+    <motion.div
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className={`${styles.innerWidth} mx-auto flex flex-col`}
+    >
 
-  return (
-    <section className={`${styles.paddings}`} id="explore2">
+      <TypingText title="| Onde Atuamos" textStyles="text-center" />
+      <TitleText
+        title={(
+          <>Trabalhamos em todo o Brasil
+          </>
+        )}
+        textStyles="text-center"
+      />
+
       <motion.div
-        variants={staggerContainer}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}
+        variants={fadeIn('up', 'tween', 0.3, 1)}
+        className="relative mt-[68px] flex w-full h-[550px]"
       >
-        <TypingText title="| Títulos " textStyles="text-center" />
-        <TitleText
-          title={<>as <br className="md:block hidden" /> Veja algumas</>}
-          textStyles="text-center"
-        />
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {exploreWorlds.map((world, index) => (
-            <ExploreCard
-              key={world.id}
-              {...world}
-              index={index}
-              active={active}
-              handleClick={setActive}
-            />
-          ))}
+        <img src="/map.png" alt="map" className="w-full h-full ml-[20px]" />
+
+        <div className="absolute bottom-20 left-[15%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
+          <img src="people-01.png" alt="people" className="w-full h-full" />
+        </div>
+
+        <div className="absolute top-10 left-[15%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
+          <img src="/people-02.png" alt="people" className="w-full h-full" />
+        </div>
+
+        <div className="absolute top-1/2 left-[40%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
+          <img src="people-03.png" alt="people" className="w-full h-full" />
         </div>
       </motion.div>
-    </section>
-  );
-};
+    </motion.div>
+  </section>
+);
 
-export default Explore;
+export default World;

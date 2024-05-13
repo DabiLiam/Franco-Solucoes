@@ -6,7 +6,7 @@ import styles from '../styles';
 import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
 
 const Feedback = () => (
-  <section className={`${styles.paddings}`}>
+  <section id="feedback" className={`${styles.paddings}`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -16,7 +16,7 @@ const Feedback = () => (
     >
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
+        className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A]"
       >
         <div className="feedback-gradient" />
         <div>
@@ -24,13 +24,13 @@ const Feedback = () => (
             Samantha
           </h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-            Cliente de Bella Donna
+            Cliente da Franco Soluções TI
           </p>
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          "Adorei minha experiência na loja! Encontrei uma variedade incrível de
-          peças modernas e elegantes que se encaixam perfeitamente no meu estilo."
+          "Como cliente da Franco Soluções TI, estou extremamente satisfeito com os serviços que recebi.
+          sua equipe demonstrou profissionalismo, técnica e compromisso com a qualidade."
         </p>
       </motion.div>
 
@@ -39,7 +39,7 @@ const Feedback = () => (
         className="relative flex-1 flex justify-center items-center"
       >
         <img
-          src="/logo.png"
+          src="/vfran3.png"
           alt="planet-09"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
         />

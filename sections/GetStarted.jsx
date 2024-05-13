@@ -8,7 +8,9 @@ import { StartSteps, TitleText, TypingText } from '../components';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 
 const GetStarted = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section
+    id="services"
+    className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -30,8 +32,8 @@ const GetStarted = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| Nossa Loja" />
-        <TitleText title={<>O que nossa loja tem a oferecer ?</>} />
+        <TypingText title="| Nossa empresa" />
+        <TitleText title={<>Porque trabalhar com nós ?</>} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           {startingFeatures.map((feature, index) => (
             <StartSteps

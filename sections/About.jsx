@@ -24,20 +24,15 @@ const About = () => (
       >
         <span className="font-extrabold text-white"> </span>  {' '}
         <span className="font-extrabold text-white">
-          Bella Donna,
-        </span> a elegância encontra a moda contemporânea, criando um oásis
-        de estilo para as mulheres modernas.{' '}
+          Franco Soluções TI,
+        </span> não apenas construímos infraestruturas de Ti, construímos parcerias {' '}
         {' '}
         <span className="font-extrabold text-white">
-          Designs
-        </span> exclusivos e uma atenção impecável aos detalhes, nossa loja é
-        o destino definitivo para mulheres que buscam peças únicas que refletem sua {' '}
+          duradouras.
+        </span> Estamos prontos para transformar desafios em oportunidades para o {' '}
         <span className="font-extrabold text-white">
-          personalidade e sofisticação. <br />
-        </span>
-        {/* Além disso, estamos comprometidos com a sustentabilidade e a responsabilidade
-        social, buscando parceiros que compartilhem nossos valores e práticas em toda a cadeia
-        de suprimentos. */}
+          sucesso
+        </span> do seu negócio.
       </motion.p>
 
       <motion.img

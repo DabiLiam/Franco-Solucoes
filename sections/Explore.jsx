@@ -12,7 +12,7 @@ const Explore = () => {
   const [active, setActive] = useState('world-2');
 
   return (
-    <section className={`${styles.paddings}`} id="explore">
+    <section id="skill" className={`${styles.paddings}`} >
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -20,9 +20,9 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| Peças " textStyles="text-center" />
+        <TypingText title="| Habilidades " textStyles="text-center" />
         <TitleText
-          title={<>Algumas peças que vendemos <br className="md:block hidden" /></>}
+          title={<>Nossas Especializações <br className="md:block hidden" /></>}
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">

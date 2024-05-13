@@ -2,11 +2,10 @@ import Head from 'next/head';
 
 import '../styles/globals.css';
 
-
 const MyApp = ({ Component, pageProps }) => (
   <>
     <Head>
-      <title>Bella Donna</title>
+      <title>Franco Soluções TI</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/vrpano.png" />
       <link rel="preconnect" href="https://stijndv.com" />

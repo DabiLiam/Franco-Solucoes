@@ -1,88 +1,89 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'Social',
+    imgUrl: '/slide-01.png',
+    title: 'Coordenador de TI',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'Casual',
+    imgUrl: '/slide-02.png',
+    title: 'Analista de Sistemas',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Vestido',
+    imgUrl: '/slide-03.png',
+    title: 'Infraestrutura',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Suéter',
+    imgUrl: '/slide-04.png',
+    title: 'Cyber Security',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Verão',
+    imgUrl: '/slide-05.png',
+    title: 'Linux System Administrator ',
   },
 ];
 
 export const startingFeatures = [
-  'Nosso produtos são feitos de material de alta qualidade',
-  'Entregamos em até 1 semana útil',
-  'Nosso sistema tem devolução do produto em até 3 dias',
+  'Contendo mais de 8 anos de experiência no mercado de trabalho.',
+  'Serviço totalmente seguro, rápido e eficiente para nossos clientes.',
+  'Trabalhamos tanto remotamente e presencialmente.',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.png',
-    title: ': Público Alvo',
+    title: ': Serviço',
     subtitle:
-      'Nosso foco de vendas é para o público feminino, então temos poucas roupas masculinas. ',
+      'Nosso serviços abrangem desde a segurança avançada, com implementação de medidas de proteção digital. ',
   },
   {
-    imgUrl: '/headset.png',
-    title: ': Estoque',
+    imgUrl: '/vfran2.png',
+    title: ': Destaque',
     subtitle:
-      'Vendemos roupas de todas as estações do ano e moda, então temos diversos modelos.',
+      'Destacamo-nos por nosso suporte técnico dedicado, assegurando respotas rápidas e manutenção proativa.',
   },
 ];
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'Moda Acubi ',
+    imgUrl: '/window.png',
+    title: 'Windows Server ',
     subtitle:
-      'É a uma tendência fashion da Coréia, que mescla algumas estéticas: Y2k, Cyber Fairy Grunge, Minimalismo e Subversivo Básico.',
+      'Windows Server é uma família de sistemas operacionais Microsoft Windows baseado na arquitetura NT direcionada para uso em servidores.',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: 'Moda streetwear',
+    imgUrl: '/mega.png',
+    title: 'Mega',
     subtitle:
-      'É um estilo de roupa casual que ganhou o mundo a partir da década de 1990. Ele surgiu inspirado pela moda hip hop',
+      'O Mega Sistema Corporativo da Qualidade é um processo padronizado de organização e gerência de empresas, empreendimentos, órgãos públicos e projetos.',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'Moda punk',
+    imgUrl: '/office.png',
+    title: 'Office',
     subtitle:
-      'O punk teve seu início como uma forma de expressão artística de uma visão contracultural do mundo moderno. A ideia tomou forma, inicialmente, no início dos anos 70',
+      'Um conjunto/família de softwares de produtividade e serviços baseados em nuvem desenvolvido pela empresa norte-americana Microsoft, focado no trabalho colaborativo simultâneo.',
   },
 ];
 
 export const socials = [
-  {
-    name: 'twitter',
-    url: '/twitter.svg',
-  },
+  // {
+  //   name: 'twitter',
+  //   url: '/twitter.svg',
+  // },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    link: '',
   },
-  {
-    name: 'instagram',
-    url: '/instagram.svg',
-  },
-  {
-    name: 'facebook',
-    url: '/facebook.svg',
-  },
+  // {
+  //   name: 'instagram',
+  //   url: '/instagram.svg',
+  // },
+  // {
+  //   name: 'facebook',
+  //   url: '/facebook.svg',
+  // },
 ];
